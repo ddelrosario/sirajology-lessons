@@ -20,9 +20,12 @@ Y = ['male', 'male', 'female', 'female', 'male', 'male', 'female', 'female',
 
 clf = clf.fit(X, Y)
 
-dad_prediction = clf.predict([[170, 74, 42]])
+dad_prediction = clf.predict([[171, 74, 42]])
 mom_prediction = clf.predict([[165, 63, 39]])
+josh_prediction = clf.predict([[152, 41, 40]])
+lucas_prediction = clf.predict([[170, 52, 42]])
+julian_prediction = clf.predict([[178, 59, 44]])
 
 # CHALLENGE compare their reusults and print the best one!
 
-print dad_prediction, mom_prediction
+print dad_prediction, mom_prediction, josh_prediction, lucas_prediction, julian_prediction
